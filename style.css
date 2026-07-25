@@ -1,0 +1,118 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    --para:16px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    line-height: 1.5;
+}
+.text-1{
+    color: var(--Stone-900);
+}
+
+
+.block img{
+    border-radius: 10px;
+    width: 100%;
+}
+h1{
+    color: var(--Stone-900);
+}
+.sec1 h1{
+    color: var(--Brown-800);
+}
+h3{
+    color: var(--Rose-800);
+}
+.card{
+    background-color: var(--Rose-50);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+span{
+    color: var(--Stone-600);
+    font-weight: 900;
+}
+.card li::marker{
+    color: var(--Rose-800);
+}
+.ingredients li::marker{
+    color: var(--Brown-800);
+}
+.instruction li::marker{
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+td{
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+th{
+    color: var(--Stone-600);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border-bottom: solid 1px var(--Stone-150); 
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 600px;
+    background-color: var(--White);
+    background-color: var(--Stone-100);
+    z-index: 2;
+    top: 20rem;
+    left: -10rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 600px;
+    background-color: var(--White);
+    background-color: var(--Stone-100);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container1 .block{
+    background-color: var(--White);
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container2 .block{
+    background-color: var(--White);
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
